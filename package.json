@@ -1,6 +1,6 @@
 {
   "name": "secure-auth-express",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reusable secure login/register routes for Express using JWT and bcrypt.",
   "type": "module",
   "main": "src/index.js",
@@ -21,12 +21,12 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^8.0.3",
     "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^9.0.2"
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "secure-auth-express": "^1.0.1"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0"
   },
@@ -40,4 +40,3 @@
     "LICENSE"
   ]
 }
-
