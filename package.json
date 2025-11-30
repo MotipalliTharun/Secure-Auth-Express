@@ -1,5 +1,5 @@
 {
-  "name": "secure-auth-express-tharun",
+  "name": "secure-auth-express",
   "version": "1.0.0",
   "description": "Reusable secure login/register routes for Express using JWT and bcrypt.",
   "type": "module",
